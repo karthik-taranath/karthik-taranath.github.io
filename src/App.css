@@ -1,38 +1,126 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  transition: all 0.3s ease;
+
+  --gradient: radial-gradient(62.61% 62.61% at 95.23% 6.02%, #160E71 0%, rgba(19, 13, 92, 0.26) 54.71%, rgba(90, 35, 248, 0) 100%),
+              linear-gradient(72.48deg, #EF516D 2.61%, rgba(106, 103, 227, 0) 56.18%),
+              radial-gradient(45.23% 45.23% at 35.11% -11.02%, #7936AE 0%, rgba(121, 54, 174, 0) 100%),
+              radial-gradient(94.51% 124.88% at 94.32% 94.43%, rgba(65, 244, 255, 0.78) 0%, rgba(131, 218, 255, 0.6552) 32.29%, rgba(99, 175, 240, 0.3978) 64.06%, rgba(43, 90, 211, 0) 100%),
+              linear-gradient(313.04deg, #341D65 0.93%, #604AEA 125.68%);
+}
+
+h1 {
+  font-size: 5.5em;
+  font-weight: 700;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  font-size: 4dvh;
+  font-weight: lighter;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+svg {
+  position: absolute;
+  width: 100%;
+}
+
+
+#hero {
+  height: 120dvh;
+  background: var(--gradient);
+  filter: blur(0px);
+  color: #fff;
+  position: relative;
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 12dvh;
+    height: 100dvh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#experience {
+  min-height: 100dvh;
+  text-align: center;
+  
+  h1 {
+    background: var(--gradient);
+    background-clip: text;
+    color: transparent;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content {
+    padding: 5dvh 10dvw;
+    text-align: left;
+  }
+}
+
+#projects {
+  background: var(--gradient);
+  color: #fff;
+  position: relative;
+  /* border: #0f0 1px solid; */
+  min-height: 195dvh;
+
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    
+    position: absolute;
+    /* border: #f00 1px solid; */
+    left: 10%;
+    right: 10%;
+    top: 20dvh;
+  }
+}
+
+#footer {
+  .content {
+    min-height: 20dvh;
+    position: relative;
+
+    .text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 1.5dvh;
+    }
+    
+    .icons {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      a {
+        float: right;
+        margin: 1dvh 2dvh 1dvh 0;
+  
+        .icon {
+          color: #000;
+          position: relative;
+          font-size: 3dvw;
+          transition: 0s;
+        }
+      }
+  
+      a:hover {
+        transform: scale(110%);
+
+        .icon {
+          color: #383838;
+        }
+    }
+    }
   }
 }

@@ -1,0 +1,41 @@
+.position {
+  line-height: 5dvh;
+  background-color: #ebf0f1;
+  padding: 7dvh;
+  border-radius: 5dvh;
+  box-shadow: -10px 10px #d8dcdd;
+  margin-bottom: 8dvh;
+  transition: all 0.3s ease;
+  color: #000;
+  text-decoration: none;
+}
+
+.position:hover {
+  box-shadow: -15px 15px #909192;
+  transform: translate(5px, -5px);
+}
+
+#line1 span {
+  font-size: 2dvw;
+  font-weight: 700;
+}
+
+#line2 {
+  padding-bottom: 2dvh;
+}
+
+#line2 span {
+  font-size: 1.5dvw;
+  font-weight: 600;
+}
+
+ul {
+  font-size: 1.5dvw;
+  font-weight: 350;
+  padding: 0 3dvw 0 4dvw;
+}
+
+#notes {
+  font-style: italic;
+  font-weight: 200;
+}
