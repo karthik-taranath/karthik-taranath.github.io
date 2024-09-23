@@ -22,14 +22,14 @@ export const EXPERIENCE = [
     location: 'College Park, MD',
     link: 'https://ece.umd.edu/clark/faculty/361/Rajeev-Barua',
     bullets: [
-      'Dynamically analyze over 30 executables using Ghidra to understand the structure of x64 PE and COFF files',
+      'Dynamically analyze over 30 executables using Ghidra to understand the internal structure of x64 PE and COFF files',
       'Design a reverse engineering tool to extract code from encrypted binaries by reading instructions at runtime',
       'Reduce execution times by 90% by skipping non-branching instructions, circumventing evasive malware tactics',
     ],
   },
   {
     company: 'UMIACS',
-    role: 'Undergraduate Machine Learning Research Assistant',
+    role: 'Undergraduate Research Assistant',
     start_date: 'Jan 2024',
     end_date: 'Mar 2024',
     location: 'College Park, MD',
