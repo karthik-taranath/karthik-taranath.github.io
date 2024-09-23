@@ -17,7 +17,7 @@ export const PROJECTS = [
     title: 'Autonomous Maze Navigator',
     caption: 'Escaping an unknown maze using environmental features',
     image: autonomous_maze_navigator,
-    // link: 'https://github.com/karthik-taranath',
+    link: 'https://github.com/mdurrani808/AutonomousMazeNavigator',
   },
   {
     title: 'Employee Sentiment Analysis',
@@ -42,7 +42,7 @@ export const PROJECTS = [
     image: dynamic_robot_stacker,
   },
   // {
-  //   title: 'Portofolio Website',
+  //   title: 'Portfolio Website',
   //   caption: 'Showcasing my projects and experience through a handcrafted website',
   //   image: '',
   //   link: 'https://karthik-taranath.github.io',
