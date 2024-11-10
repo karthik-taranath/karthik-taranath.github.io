@@ -63,11 +63,11 @@ svg {
   }
 }
 
-#projects {
+/* #projects {
   background: var(--gradient);
   color: #fff;
   position: relative;
-  /* border: #0f0 1px solid; */
+  /* border: #0f0 1px solid; *
   min-height: 195dvh;
 
 
@@ -78,10 +78,29 @@ svg {
     float: left;
     
     position: absolute;
-    /* border: #f00 1px solid; */
+    /* border: #f00 1px solid; *
     left: 10%;
     right: 10%;
     top: 20dvh;
+  }
+} */
+
+#projects {
+  background: var(--gradient);
+  color: #fff;
+  position: relative;
+  padding: 5dvh 0;
+
+  svg:first-child {
+    top: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 15dvh auto 25dvh auto;
   }
 }
 
