@@ -111,15 +111,15 @@ svg {
 
     .text {
       position: absolute;
-      bottom: 0;
-      left: 0;
+      bottom: 0.5vh;
+      left: 0.5vh;
       margin: 1.5dvh;
     }
     
     .icons {
       position: absolute;
-      bottom: 0;
-      right: 0;
+      bottom: 0.5vh;
+      right: 0.5vh;
 
       a {
         float: right;
@@ -128,7 +128,7 @@ svg {
         .icon {
           color: #000;
           position: relative;
-          font-size: 3dvw;
+          font-size: 5.5dvh;
           transition: 0s;
         }
       }

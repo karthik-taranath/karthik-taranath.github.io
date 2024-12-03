@@ -1,14 +1,13 @@
 import vehicle_path_tracker from '../vehicle_path_tracker.png';
 import autonomous_maze_navigator from '../autonomous_maze_navigator.png';
 import employee_sentiment_analysis from '../employee_sentiment_analysis.png';
-import covid19_detector from '../covid19_detector.png';
 import tic_tac_toe_ai from '../tic_tac_toe_ai.png';
 import dynamic_robot_stacker from '../dynamic_robot_stacker.png';
 
 export const PROJECTS = [
   {
-    title: 'Vehicle Path Tracker',
-    caption: 'Using visual odometry to capture the path of a moving vehicle',
+    title: 'Visual Odometry Pipeline',
+    caption: 'Mapping the trajectory of a moving vehicle using a video of its path',
     image: vehicle_path_tracker,
     link: 'https://github.com/karthik-taranath/vehicle-path-tracking',
     backgroundColor: '#ffffff',
@@ -24,11 +23,6 @@ export const PROJECTS = [
     caption: 'Discovering trends about companies through reviews from its employees',
     image: employee_sentiment_analysis,
     link: 'https://jadontrackim.github.io/',
-  },
-  {
-    title: 'CT Scan COVID-19 Detector',
-    caption: 'Training an ML model to detect the presence of COVID-19 in 3D CT scans',
-    image: covid19_detector,
   },
   {
     title: 'Tic Tac Toe AI',

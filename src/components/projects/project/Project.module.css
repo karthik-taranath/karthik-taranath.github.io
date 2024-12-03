@@ -51,32 +51,23 @@
   text-wrap: wrap;
   display: none;
   transition: all 0.3s ease;
-  /* border: #f00 1px solid; */
 }
 
 h2 {
-  font-size: 25%;
+  font-size: 4vh;
   font-weight: 500;
-
-  @media screen and (min-width: 768px) {
-    font-size: 35%;
-  }
-  
-  @media screen and (min-width: 1024px) {
-    font-size: 220%;
-  }
 }
 
 p {
-  font-size: 1.25cqi;
+  font-size: 2.5vh;
   font-weight: 200;
 }
 
 .icon {
   position: absolute;
   width: fit-content;
-  top: 1cqi;
-  right: 1.25cqi;
+  top: 2vh;
+  right: 2vh;
   color: #000;
   transition: all 0.3s ease;
 }
