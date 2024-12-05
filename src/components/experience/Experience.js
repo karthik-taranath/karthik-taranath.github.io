@@ -38,6 +38,17 @@ export const EXPERIENCE = [
     ],
   },
   {
+    company: 'Weis Markets',
+    role: 'Deli Sales Associate',
+    start_date: 'Jun 2023',
+    end_date: 'Jan 2024',
+    location: 'Woodstock, MD',
+    bullets: [
+      'Provided excellent customer service to improve the shopping experience by being personable and knowledgeable',
+      'Collaborated with coworkers to leverage specific individual strengths and efficiently allocate tasks, optimizing workflow and avoiding customer congestion',
+    ],
+  },
+  {
     company: 'Gamera-S',
     role: 'Avionics Software Engineer',
     start_date: 'Sep 2023',
@@ -47,17 +58,6 @@ export const EXPERIENCE = [
     bullets: [
       'Programmed Arduino firmware to enable real-time data collection and processing for propeller analysis',
       'Gained insight into the propellers’ performance by determining their drag and lift with a quadratic regression curve',
-    ],
-  },
-  {
-    company: 'Weis Markets',
-    role: 'Deli Sales Associate',
-    start_date: 'Jun 2023',
-    end_date: 'Aug 2023',
-    location: 'Woodstock, MD',
-    bullets: [
-      'Provided excellent customer service to improve the shopping experience by being personable and knowledgeable',
-      'Collaborated with coworkers to leverage specific individual strengths and efficiently allocate tasks, optimizing workflow and avoiding customer congestion',
     ],
   },
 ]
